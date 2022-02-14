@@ -3,4 +3,11 @@
 !WARNING!
 * https://github.com/johnsoncodehk/volar/discussions/471
 
--> Diabale Workspace @builtin typescript and Javascript Language Features
+VSC:
+-> disable for workspace: extention "@builtin typescript and Javascript Language Features"
+-> disable for workspace: extention "vetur"
+-> install volar extention
+-> verfify "Take Over Mode enabled."
+
+to run:
+npm run serve
