@@ -1,0 +1,22 @@
+{
+  "extends": ["plugin:vue/vue3-recommended", "eslint:recommended", "@vue/typescript/recommended"],
+  "env": {
+    "vue/setup-compiler-macros": true
+  },
+  "rules": {
+    "vue/script-setup-uses-vars": "error",
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": {
+          "max": 2
+        },
+        "multiline": {
+          "max": 1
+        }
+      }
+    ],
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/html-self-closing": "off"
+  }
+}
